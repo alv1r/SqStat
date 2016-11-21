@@ -13,7 +13,7 @@ $squidclass=new squidstat();
 
 // loading configuration
 
-if(is_file("config.inc.php")) {
+if(is_file(__DIR__."/config.inc.php")) {
 	include_once "config.inc.php";
 	// checking configuration. We need to have at least one 
 	// squidhost/squid pair
